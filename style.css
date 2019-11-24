@@ -1,17 +1,27 @@
 * {
     box-sizing: border-box;
 }
-a{
+
+a {
     text-decoration: none;
 }
-body{
-    background: #eeeeee;
+
+body {
+
     background-image: url(https://img.zcool.cn/community/014a3257aa20220000018c1b808add.jpg@1280w_1l_2o_100sh.jpg);
+    background-repeat: no-repeat;
+    /* height: 100%;
+    width: 100%; */
+    background-size: cover;
+    overflow: hidden;
+    background-attachment: fixed;
 }
-.login-body{
+
+.login-body {
     margin: auto;
-    
+
     width: 30%;
+    height: 420px;
     background: #ffffff;
     text-align: center;
     border-radius: 5px;
@@ -21,43 +31,55 @@ body{
     bottom: 150px;
 
 }
-.login-body p{
+
+.login-body p {
     color: cadetblue;
     font-size: 13px;
 }
-.login-body span{
+
+.login-body span {
     color: cadetblue;
     font-size: 13px;
 }
-#span1{
-    
+
+#span1 {
+
     position: absolute;
     left: 70px;
+    bottom: 10px;
 }
-#span1 a{
-    color:burlywood;
+
+#span1 a {
+    color: burlywood;
 }
-#span2 a{
-    color:burlywood;
+
+#span2 a {
+    color: burlywood;
 }
-#span1 a:hover{
-    color:blue;
+
+#span1 a:hover {
+    color: blue;
 }
-#span2 a:hover{
-    color:blue;
+
+#span2 a:hover {
+    color: blue;
 }
-#span2{
-    color:burlywood;
+
+#span2 {
+    color: burlywood;
     position: absolute;
     right: 70px;
+    bottom: 10px;
 }
-.login-body input:hover{
+
+.login-body input:hover {
     width: 60%;
     height: 40px;
-    color:blue;
+    color: blue;
     font-weight: bolder;
 }
-.input{
+
+.input {
     display: block;
     margin: auto;
     width: 50%;
@@ -67,12 +89,13 @@ body{
     border-style: none;
     border: 1px solid gray;
 }
-.input-btn{
+
+.input-btn {
     width: 50%;
     height: 30px;
     border-radius: 5px;
     background: burlywood;
-    
+
     color: #ffffff;
     border-style: none;
 }
