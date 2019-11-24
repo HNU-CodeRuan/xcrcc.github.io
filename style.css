@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: #eeeeee;
+    background-image: url(https://img.zcool.cn/community/014a3257aa20220000018c1b808add.jpg@1280w_1l_2o_100sh.jpg);
+}
+.login-body{
+    margin: auto;
+    
+    width: 30%;
+    background: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    right: 40px;
+    top: 100px;
+    bottom: 150px;
+
+}
+.login-body p{
+    color: cadetblue;
+    font-size: 13px;
+}
+.login-body span{
+    color: cadetblue;
+    font-size: 13px;
+}
+#span1{
+    
+    position: absolute;
+    left: 70px;
+}
+#span1 a{
+    color:burlywood;
+}
+#span2 a{
+    color:burlywood;
+}
+#span1 a:hover{
+    color:blue;
+}
+#span2 a:hover{
+    color:blue;
+}
+#span2{
+    color:burlywood;
+    position: absolute;
+    right: 70px;
+}
+.login-body input:hover{
+    width: 60%;
+    height: 40px;
+    color:blue;
+    font-weight: bolder;
+}
+.input{
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border-style: none;
+    border: 1px solid gray;
+}
+.input-btn{
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+    background: burlywood;
+    
+    color: #ffffff;
+    border-style: none;
+}
