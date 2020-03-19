@@ -1,5 +1,5 @@
 
-#### 特别鸣谢原创
+#### 特别鸣谢
 https://github.com/WebStackPage/WebStackPage.github.io
 
 
